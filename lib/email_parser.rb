@@ -7,12 +7,12 @@ class EmailAddressParser
   
   attr_accessor :csv_emails
   
-  def initialize(CSV_emails)
-    @CSV_emails = CSV_emails
+  def initialize(csv_email)
+    @csv_email = csv_email
 end
 
 def parse
-    CSV_emails.split.collect do |address|
+    csv_email.split.collect do |address|
       address.split(' ') 
     end
     return_arr = csv_emails.flatten.uniq 
