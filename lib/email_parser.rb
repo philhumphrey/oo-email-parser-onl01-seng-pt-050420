@@ -5,7 +5,7 @@
 
 class EmailParser
   
-  attr_accessor :CSV emails
+  attr_accessor :csv_emails
   
   def initialize
 end
