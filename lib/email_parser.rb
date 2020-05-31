@@ -12,7 +12,7 @@ class EmailAddressParser
 end
 
 def parse
-    csv_emails.delete(',').split
+    csv_emails.delete(',')
     end
   end 
 
