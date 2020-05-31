@@ -15,10 +15,7 @@ def parse
     csv_emails.delete(',').split.uniq
       address.split 
     end
-    return_arr = csv_emails.flatten.uniq 
-    return_arr
   end 
-end 
 
   
 
