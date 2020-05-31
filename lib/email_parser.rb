@@ -16,6 +16,7 @@ def parse
       address.split(',') 
     end
     return_array =emails.flatten.uniq 
+    return_array
   end 
 end 
 
