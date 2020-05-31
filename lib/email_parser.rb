@@ -15,8 +15,8 @@ def parse
     csv_emails.split.collect do |address|
       address.split(' ') 
     end
-    return_array = csv_emails.flatten.uniq 
-    return_array
+    return_arr = csv_emails.flatten.uniq 
+    return_arr
   end 
 end 
 
