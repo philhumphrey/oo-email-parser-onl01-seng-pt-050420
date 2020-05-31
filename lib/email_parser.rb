@@ -13,7 +13,6 @@ end
 
 def parse
     csv_emails.delete(',').split.uniq
-      address.split 
     end
   end 
 
